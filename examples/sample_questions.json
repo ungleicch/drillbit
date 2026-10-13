@@ -1,0 +1,55 @@
+[
+  {
+    "type": "multiple-choice",
+    "question": "What is the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi Apparatus"],
+    "answer": "Mitochondria",
+    "explanation": "Mitochondria produce ATP through cellular respiration, earning the nickname 'powerhouse of the cell'."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which molecule carries genetic information in most living organisms?",
+    "options": ["RNA", "ATP", "DNA", "Protein"],
+    "answer": "DNA",
+    "explanation": "DNA (deoxyribonucleic acid) stores hereditary information in the form of a double helix."
+  },
+  {
+    "type": "true-false",
+    "question": "Photosynthesis converts light energy into chemical energy stored in glucose.",
+    "answer": "true",
+    "explanation": "Plants use chlorophyll to absorb sunlight and convert CO₂ + H₂O into glucose and oxygen."
+  },
+  {
+    "type": "true-false",
+    "question": "The human body has 206 muscles.",
+    "answer": "false",
+    "explanation": "The human body has 206 bones, not muscles. There are over 600 skeletal muscles."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is the normal pH of human blood?",
+    "options": ["6.2", "7.4", "8.1", "5.5"],
+    "answer": "7.4",
+    "explanation": "Human blood is slightly alkaline with a pH between 7.35 and 7.45, averaging around 7.4."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which base pairs with Adenine in DNA?",
+    "options": ["Guanine", "Cytosine", "Uracil", "Thymine"],
+    "answer": "Thymine",
+    "explanation": "In DNA, Adenine (A) always pairs with Thymine (T), and Guanine (G) always pairs with Cytosine (C)."
+  },
+  {
+    "type": "true-false",
+    "question": "Red blood cells contain a nucleus.",
+    "answer": "false",
+    "explanation": "Mature red blood cells (erythrocytes) lack a nucleus to maximize space for hemoglobin."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which organelle is responsible for protein synthesis?",
+    "options": ["Lysosome", "Ribosome", "Vacuole", "Centrosome"],
+    "answer": "Ribosome",
+    "explanation": "Ribosomes translate mRNA into proteins — they can be free in the cytoplasm or attached to the ER."
+  }
+]

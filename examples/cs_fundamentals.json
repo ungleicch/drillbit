@@ -1,0 +1,69 @@
+[
+  {
+    "type": "multiple-choice",
+    "question": "What is the average time complexity of looking up a key in a hash table?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "answer": "O(1)",
+    "explanation": "With a good hash function and a reasonable load factor, lookups take constant time on average. The worst case is O(n) when many keys collide."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What does this Python snippet print?\n\n```python\nnums = [3, 1, 2]\nnums.sort()\nprint(nums[-1])\n```",
+    "options": ["1", "2", "3", "IndexError"],
+    "answer": "3",
+    "explanation": "`sort()` orders the list in place to `[1, 2, 3]`, and index `-1` is the last element."
+  },
+  {
+    "type": "true-false",
+    "question": "A stack is a FIFO (first in, first out) data structure.",
+    "answer": "false",
+    "explanation": "A stack is LIFO: the last item pushed is the first one popped. A queue is FIFO."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which data structure does breadth-first search typically use to track the next nodes to visit?",
+    "options": ["Stack", "Queue", "Heap", "Hash set"],
+    "answer": "Queue",
+    "explanation": "BFS visits nodes level by level, so it takes them in the order they were discovered, which is exactly what a queue gives you."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What does this JavaScript log?\n\n```javascript\nconst a = [1, 2, 3];\nconst b = a;\nb.push(4);\nconsole.log(a.length);\n```",
+    "options": ["3", "4", "undefined", "TypeError"],
+    "answer": "4",
+    "explanation": "Arrays are objects, so `b = a` copies the reference. Both names point at the same array, and pushing through `b` changes `a` too."
+  },
+  {
+    "type": "true-false",
+    "question": "Binary search only works correctly on sorted input.",
+    "answer": "true",
+    "explanation": "Binary search throws away half the range each step, which is only valid when the elements are in order."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "How many times does the loop body run?\n\n```c\nfor (int i = 0; i < 10; i += 3) {\n    work(i);\n}\n```",
+    "options": ["3", "4", "9", "10"],
+    "answer": "4",
+    "explanation": "`i` takes the values 0, 3, 6 and 9. At 12 the condition `i < 10` fails."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which sorting algorithm has a guaranteed O(n log n) worst case?",
+    "options": ["Quicksort", "Merge sort", "Insertion sort", "Bubble sort"],
+    "answer": "Merge sort",
+    "explanation": "Merge sort always splits evenly and merges in linear time. Quicksort can degrade to O(n²) with bad pivots."
+  },
+  {
+    "type": "true-false",
+    "question": "In SQL, `WHERE` filters rows before grouping, while `HAVING` filters groups after `GROUP BY`.",
+    "answer": "true",
+    "explanation": "`HAVING` can use aggregates like `COUNT(*)` because it runs after rows have been grouped."
+  },
+  {
+    "type": "multiple-choice",
+    "question": "What is the result of `0.1 + 0.2 === 0.3` in JavaScript?",
+    "options": ["true", "false", "NaN", "It throws"],
+    "answer": "false",
+    "explanation": "Binary floating point can't represent 0.1 or 0.2 exactly, so the sum is 0.30000000000000004."
+  }
+]
